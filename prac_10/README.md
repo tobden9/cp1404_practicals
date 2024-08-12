@@ -33,27 +33,41 @@ pracs.
 For each one, write a short explanation of what was good about your review.
 
 ### Good Code Review 1
+rather than just breaking the quit option you can add finishing lines like total trip cost
+'''
+while True:
+        print(menu)
+        choice = input(">>> ").lower()
 
-[]()
+        if choice == "q":
+            break
+        elif choice == "c":
+'''
 
 ### Explanation
 
-...
+he just quit the program without showing any follow up sentence
 
 ### Good Code Review 2
+"""
+else:
+            print("Invalid option")
 
-[]()
+@tobden9 tobden9 yesterday
+your code can have more error handeling cases
+
+@tobden9	Reply...
+        print(f"Bill to date: ${total_bill:.2f}")
+"""
 
 ### Explanation
 
-...
+There can be more error handeling cases to make the code clean
 
 ## Practicals
 
 ### Regarding the **practical tasks** overall, what would you change if you were in charge of the subject?
-
-...
+I would coding session in class rather than theory class.
 
 ### What did you do really well for practicals in this subject?
-
-...
+Create usable and understandable classes.
